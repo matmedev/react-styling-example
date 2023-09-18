@@ -2,7 +2,7 @@ import "./plain.css";
 
 function PlainCssPage() {
     return (
-        <div className="container">
+        <div className="plain-scope container">
             <div className="card">
                 <div className="header">
                     <h1 className="title">Example card</h1>
@@ -21,7 +21,7 @@ function PlainCssPage() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default PlainCssPage;
